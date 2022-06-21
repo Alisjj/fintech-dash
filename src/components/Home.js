@@ -126,7 +126,17 @@ function Home() {
                 <p>Food</p>
               </div>
             </div>
-            <div className="bg-cgray w-full "></div>
+            <div className="bg-cgray w-full p-5 rounded-lg">
+              <h1 className='font-semibold text-2xl mb-3'>Comparison (Month)</h1>
+                <p className='mb-2'>This Month</p>
+                <div className='bg-white w-full overflow-hidden rounded-xl mb-3'>
+                  <span className='bg-bblue p-1 w-11 ml-0'></span>
+                </div>
+                <p className='mb-2'>Last Month</p>
+                <div className='bg-white w-full overflow-hidden rounded-xl'>
+                  <span className='bg-bblue w-2/4 p-1 ml-0'></span>
+                </div>
+            </div>
         </div>
       </div>
       
