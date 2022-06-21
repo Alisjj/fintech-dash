@@ -7,7 +7,7 @@ export function SideBar() {
 
 
   return (
-    <div className='sticky flex flex-col items-center top-0 h-screen w-36 bg-white p-1'>
+    <div className='sticky flex flex-col items-center top-0 h-screen w-36 bg-white p-1 left-0'>
       <div className='mt-10 mb-16'>
         <img src="/images/logo.svg" alt="" /> 
       </div>

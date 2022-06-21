@@ -17,6 +17,9 @@ module.exports = {
         pyellow: "#FFBE0A1A",
         lpink: "#FF4F791F",
         lgray: "#565A6D",
+      },
+      margin: {
+        '85px': '85px'
       }
     },
   },
